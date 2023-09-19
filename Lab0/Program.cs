@@ -22,10 +22,10 @@ namespace Lab0
             
             if (number2 < 0)
             {
-                Console.WriteLine("\t{0} + ({1}) = {2}", number1, number2, AddNumbers(number1, number2));
+                Console.WriteLine("\t{0} + ({1}) = {2}", number1, number2, Sum(number1, number2));
             }
             else{
-                Console.WriteLine("\t{0} + {1} = {2}", number1, number2, AddNumbers(number1, number2));
+                Console.WriteLine("\t{0} + {1} = {2}", number1, number2, Sum(number1, number2));
             }   
         }
 
@@ -35,7 +35,7 @@ namespace Lab0
         /// <param name="number1">Первое слагаемое</param>
         /// <param name="number2">Второе слагаемое</param>
         /// <returns>Сумма</returns>
-        static int AddNumbers(int number1, int number2)
+        static int Sum(int number1, int number2)
         {
             return number1 + number2;
         }
